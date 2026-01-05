@@ -10,6 +10,13 @@ todos = []
 
 
 # 3. Tạo hàm để thêm một todo mới vào mảng trên (Huy)
+def them_todo(todos, id, title):
+    todo = {
+        "id": id,
+        "title": title,
+        "done": False
+    }
+    todos.append(todo)
 
 
 # 4. Tạo hàm để xóa một todo dựa trên chỉ số của nó trong mảng (Quyền)
