@@ -12,6 +12,16 @@ todos = []
 
 
 # 3. Tạo hàm để thêm một todo mới vào mảng trên (Huy)
+def them_todo(todos, id, title):
+    todo = {
+        "id": id,
+        "title ": title,
+        "done " : False,
+    }
+    todos.append(todo)
+
+
+
 
 
 
