@@ -18,9 +18,13 @@ todos = []
 # 5. Tạo hàm để cập nhật một todo dựa trên chỉ số của nó trong mảng (Nhân)
 
 
-# 6. Tạo hàm xóa toàn bộ các todo trong mảng (Bùi)
+# 6. Tạo hàm xóa toàn bộ các todo trong mảng (Nam)
 
 
-# 7. Xóa toàn bộ các todo trong mảng
+# 7. sort các todo trong mảng theo thứ tự bảng chữ cái (Duy)
+
+
+
+# 8. Xóa toàn bộ các todo trong mảng
 def clear_todos():
     todos.clear()
