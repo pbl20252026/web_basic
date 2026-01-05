@@ -20,6 +20,12 @@ def them_todo(todos, id, title):
 
 
 # 4. Tạo hàm để xóa một todo dựa trên chỉ số của nó trong mảng (Quyền)
+def delete_todo(index):
+    index = int(input("Nhập chỉ số của todo cần xóa: "))-1
+    if 0 <= index < len(todos):
+        todos.pop(index)
+    else:
+        print("Index không hợp lệ")
 
 
 # 5. Tạo hàm để cập nhật một todo dựa trên chỉ số của nó trong mảng (Nhân)
