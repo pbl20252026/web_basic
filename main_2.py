@@ -29,7 +29,11 @@ def delete_todo(index):
 
 
 # 5. Tạo hàm để cập nhật một todo dựa trên chỉ số của nó trong mảng (Nhân)
-
+def update_todo(index, task):
+    if 0 <= index < len(todos):
+        todos[index] = task
+    else:
+        print("Index không hợp lệ")
 
 # 6. Tạo hàm xóa toàn bộ các todo trong mảng (Bùi)
 def xoa_todos():
