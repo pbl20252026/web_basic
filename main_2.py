@@ -7,9 +7,13 @@ todos = []
 
 
 # 2. Tạo hàm để đọc toàn bộ các todo đó (Ân)
-
+def read_todo(todos):
+    for i in range(len(todos)):
+        print(f"{i+1}: {todos[i]}")
 
 # 3. Tạo hàm để thêm một todo mới vào mảng trên (Huy)
+
+
 def them_todo(todos, id, title):
     todo = {
         "id": id,
@@ -36,10 +40,14 @@ def update_todo(index, task):
         print("Index không hợp lệ")
 
 # 6. Tạo hàm xóa toàn bộ các todo trong mảng (Bùi)
+
+
 def xoa_todos():
     todos.clear()
-    print ('Toàn bộ todo đã được xóa trong mảng')
+    print('Toàn bộ todo đã được xóa trong mảng')
 
 # 7. Xóa toàn bộ các todo trong mảng
+
+
 def clear_todos():
     todos.clear()
