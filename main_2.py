@@ -32,7 +32,9 @@ def delete_todo(index):
 
 
 # 6. Tạo hàm xóa toàn bộ các todo trong mảng (Bùi)
-
+def xoa_todos():
+    todos.clear()
+    print ('Toàn bộ todo đã được xóa trong mảng')
 
 # 7. Xóa toàn bộ các todo trong mảng
 def clear_todos():
